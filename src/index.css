@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .gradient-border {
+        border: 2px solid transparent;
+        background-clip: border-box;
+        background-image: linear-gradient(45deg, #0E8388, #5D12D2);
+    }
+
+    .nav-active-desktop {
+        background-color: #00ADB5;
+        color: #F1F5F9;
+    }
+
+    .nav-active-mobile {
+        background-color: #CBD5E1;
+    }
+}
