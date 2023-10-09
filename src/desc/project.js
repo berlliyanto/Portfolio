@@ -32,8 +32,30 @@ const content = {
         'desc' : 'A personal portfolio website created using React.JS, Tailwind CSS, and Framer Motion technology.',
         'instance' : 'Personal Website',
         'demo' : 'https://aplikasipms.com/berli-portfolio',
+        'git' : 'https://github.com/berlliyanto/portfolio',
+    },
+    'portfolio-old' : {
+        'title' : 'Old Portfolio Website',
+        'desc' : 'A personal portfolio website created using HTML CSS Javascript.',
+        'instance' : 'Personal Website',
+        'demo' : 'https://aplikasipms.com/berli-portfolio-old',
+        'git' : 'https://github.com/berlliyanto/portfolio-old',
+    },
+    'dFrontend' : {
+        'title' : 'Bookshelf App',
+        'desc' : 'This is the final submission for the "Belajar Membuat Front-End Web untuk Pemula" class by Dicoding Indonesia, aimed at managing books that have been read and those that have not been read.',
+        'instance' : 'Dicoding Indonesia',
+        'demo' : 'https://aplikasipms.com/dicoding-frontend',
         'git' : '',
     },
+    'dPlanet' : {
+        'title' : 'Planet',
+        'desc' : 'This is the final submission for the "Belajar Dasar Pemrograman Web" class by Dicoding Indonesia, which aims to enhance understanding of fundamental web programming, responsive web design, and the Document Object Model (DOM).',
+        'instance' : 'Dicoding Indonesia',
+        'demo' : 'https://aplikasipms.com/dicoding-planet',
+        'git' : '',
+    },
+
     'ta' : {
         'title' : 'Implementation of a Production Monitoring System Using IIoT Based on Mobile Application',
         'desc' : "This is my final project as a final year student of Automation Engineering'19 at Bandung Polytechnic for Manufacturing.",

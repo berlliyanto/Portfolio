@@ -88,7 +88,40 @@ const Project = () => {
                         <img src="icons/framer.svg" alt=""/>
                     </div>
                 </Card>
-                <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 1, delay: 2.5 }} viewport={{ once: true }}
+                <Card path="images/dicoding-frontend.png" delay={2.5} content={content.dFrontend}>
+                    <div className="h-6 w-6">
+                        <img src="icons/html.svg" alt="" />
+                    </div>
+                    <div className="h-6 w-6">
+                        <img src="icons/css.svg" alt="" />
+                    </div>
+                    <div className="h-6 w-6">
+                        <img src="icons/js.svg" alt=""/>
+                    </div>
+                </Card>
+                <Card path="images/dicoding-planet.png" delay={3} content={content.dPlanet}>
+                    <div className="h-6 w-6">
+                        <img src="icons/html.svg" alt="" />
+                    </div>
+                    <div className="h-6 w-6">
+                        <img src="icons/css.svg" alt="" />
+                    </div>
+                    <div className="h-6 w-6">
+                        <img src="icons/js.svg" alt=""/>
+                    </div>
+                </Card>
+                <Card path="images/portfolio-old.png" delay={3.5} content={content["portfolio-old"]}>
+                    <div className="h-6 w-6">
+                        <img src="icons/html.svg" alt="" />
+                    </div>
+                    <div className="h-6 w-6">
+                        <img src="icons/css.svg" alt="" />
+                    </div>
+                    <div className="h-6 w-6">
+                        <img src="icons/js.svg" alt=""/>
+                    </div>
+                </Card>
+                <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 1, delay: 4}} viewport={{ once: true }}
                 className="flex w-[350px] h-64 2xl:h-96 max-w-[350px] justify-center items-center rounded-lg sm:w-auto sm:justify-self-auto sm:max-w-none overflow-hidden shadow-xl">
                     <Lottie animationData={comingLottie} loop={true} className="h-96 w-7h-96 dark:invert"/>
                 </motion.div>
